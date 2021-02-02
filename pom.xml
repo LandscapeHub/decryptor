@@ -64,7 +64,7 @@
                 </execution>
             </executions>
             <configuration>
-                <finalName>YOUR_JAR_FINAL_NAME</finalName>
+                <finalName>decryptor</finalName>
             </configuration>
         </plugin>
   </plugins>
