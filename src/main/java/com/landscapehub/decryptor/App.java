@@ -1,15 +1,10 @@
 package com.landscapehub.decryptor;
 import java.io.File;
 import java.io.IOException;
-import org.apache.poi.poifs.crypt.Decryptor;
-import org.apache.poi.poifs.crypt.EncryptionInfo;
 import org.apache.poi.poifs.filesystem.NPOIFSFileSystem;
-import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.apache.poi.hssf.usermodel.HSSFWorkbook;
-import org.apache.poi.hssf.record.crypto.Biff8EncryptionKey;
 import com.landscapehub.decryptor.GenericDecryptor;
 import com.landscapehub.decryptor.XLSDecryptor;
+import com.landscapehub.decryptor.XLSXDecryptor;
 
 // Reference:
 // https://www.codejava.net/coding/java-example-to-read-password-protected-excel-files-using-apache-poi
